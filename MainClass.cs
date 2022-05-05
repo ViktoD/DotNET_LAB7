@@ -53,29 +53,7 @@ namespace Lab7
                     int[][] firstMatrix = GenerateMatrix(nRowsFirst, nColumnFirst);
                     int[][] secondMatrix = GenerateMatrix(nRowsSecond, nColumnSecond);
 
-                    /*for (int j = 0; j < firstMatrix.Length; j++)
-                    {
-                     
-                        for (int k = 0; k < firstMatrix[j].Length; k++)
-                        {
-                           WriteLine(firstMatrix[j][k]);
-                        }
-
-                        
-                    }
-
-                    WriteLine("Second matr");
-                    for (int j = 0; j < secondMatrix.Length; j++)
-                    {
-
-                        for (int k = 0; k < secondMatrix[j].Length; k++)
-                        {
-                            WriteLine(secondMatrix[j][k]);
-                        }
-
-
-                    }*/
-
+            
                     WriteLine("Another result");
 
                     for (int i = 0; i < nRowsFirst; i++)
@@ -130,19 +108,6 @@ namespace Lab7
                         WriteLine("SUM " + sum);
                     });
 
-
-
-
-
-
-                    /* for(int k =0; k < matr.Length; k++)
-                     {
-                         for(int m=0; m < matr[0].Length; m++)
-                         {
-                             WriteLine(matr[k][m]);
-                         }
-                     }*/
-                    // WriteLine("ELEMENT MULTIPLE");
 
                     
                      for(int i=0; i <= nRowsFirst * nColumnSecond; i++)
